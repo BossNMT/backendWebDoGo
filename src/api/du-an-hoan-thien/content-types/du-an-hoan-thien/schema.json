@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "du_an_hoan_thiens",
+  "info": {
+    "singularName": "du-an-hoan-thien",
+    "pluralName": "du-an-hoan-thiens",
+    "displayName": "du-an-hoan-thien"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "ChuDauTu": {
+      "type": "string",
+      "required": true
+    },
+    "DiaChi": {
+      "type": "string",
+      "required": true
+    },
+    "DienTichSuDung": {
+      "type": "string",
+      "required": true
+    },
+    "PhongCach": {
+      "type": "string",
+      "required": true
+    },
+    "CongNang": {
+      "type": "text",
+      "required": true
+    },
+    "MoTa": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

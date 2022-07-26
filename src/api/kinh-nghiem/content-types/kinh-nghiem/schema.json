@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kinh_nghiems",
+  "info": {
+    "singularName": "kinh-nghiem",
+    "pluralName": "kinh-nghiems",
+    "displayName": "kinh-nghiem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
