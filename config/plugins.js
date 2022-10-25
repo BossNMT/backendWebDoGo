@@ -5,7 +5,7 @@ module.exports = () => {
             config: {
                 provider: 'sendgrid',
                 providerOptions: {
-                    apiKey: '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',
+                    apiKey: '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',
                 },
                 settings: {
                     defaultFrom: 'checkpass2k3@gmail.com',
